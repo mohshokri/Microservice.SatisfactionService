@@ -7,6 +7,7 @@ using Satisfaction.Application.Queries.Parties;
 
 namespace Satisfaction.Application.Validations
 {
+
     public class GetPartyQueryValidator : AbstractValidator<GetPartyQuery>
     {
         public GetPartyQueryValidator()
