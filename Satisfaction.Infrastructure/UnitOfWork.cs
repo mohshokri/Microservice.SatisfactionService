@@ -10,7 +10,6 @@ namespace Satisfaction.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {
-
         private readonly SatisfactionContext _satisfactionContext;
         public UnitOfWork(SatisfactionContext satisfactionContext)
         {
